@@ -19,6 +19,12 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     padding: "16px",
   },
+  mapImage: {
+    width: "60%",
+  },
+  indicatorImage: {
+    width: "70%",
+  },
 }));
 
 const Dashboard = () => {
@@ -54,12 +60,20 @@ const Dashboard = () => {
           </Grid>
           <Grid item xs={6} sm={6}>
             <Paper className={classes.paper}>
-              <img src={africaMap} alt={africaMap} />
+              <img
+                src={africaMap}
+                alt={africaMap}
+                className={classes.mapImage}
+              />
             </Paper>
           </Grid>
           <Grid item xs={12} sm={12}>
             <Paper className={classes.paper}>
-              <img src={indicatorsImg} alt={indicatorsImg} />
+              <img
+                src={indicatorsImg}
+                alt={indicatorsImg}
+                className={classes.indicatorImage}
+              />
             </Paper>
           </Grid>
         </Grid>

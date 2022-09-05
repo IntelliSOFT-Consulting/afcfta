@@ -56,7 +56,7 @@ const ProductInformation = () => {
           <Typography> {productInformation[0].ProductName} </Typography>
         </Grid>
         <Grid item xs={6} sm={8}>
-          <Accordion expanded>
+          <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"

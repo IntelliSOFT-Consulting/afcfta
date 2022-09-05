@@ -15,10 +15,12 @@ import {
   ListItem,
   ListItemText,
   MenuItem,
+  Paper,
   Select,
   Table,
   TableBody,
   TableCell,
+  TableContainer,
   TableHead,
   TableRow,
 } from "@material-ui/core";
@@ -42,6 +44,9 @@ const useStyles = makeStyles((theme) => ({
   table: {
     minWidth: 650,
   },
+  tableHeader: {
+    fontWeight: "bold",
+  },
 }));
 
 const CountryHealthIndicators = ({ data, country, code }: Props) => {
@@ -52,15 +57,14 @@ const CountryHealthIndicators = ({ data, country, code }: Props) => {
   const [activeIndicator, setActiveIndicator] = useState<string>(
     "SOCIO-ECONOMIC_PROFILE"
   );
+  const [columns, setColumns] = useState<any[]>([]);
+  const [rows, setRows] = useState<any[]>([]);
 
   const handleYearChange = (event: any) => {
     setYear(event.target.value);
   };
 
   const parseData = (data: any[], indicator: string) => {
-    let indicators = Object.keys(data[0]);
-    const flattenedIndicators = flatten(data);
-
     const countryData = data.filter(function (d) {
       return d.code === code;
     });
@@ -76,35 +80,23 @@ const CountryHealthIndicators = ({ data, country, code }: Props) => {
       return Object.keys(d).includes(year);
     });
 
+    const columns = Object.keys(yearData[0][year]);
+    const rows = Object.values(yearData[0][year]);
+    setColumns(columns);
+    setColumns(rows);
+
     setIndicatorData(yearData[0][year]);
   };
 
   useEffect(() => {
     parseData(data, activeIndicator);
-    console.log(year, indicatorData);
+    console.log(indicatorData);
   }, [code, year]);
 
   return (
     <div>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={4}>
-          <FormControl className={classes.formControl}>
-            <InputLabel id="demo-simple-select-label">Year</InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={year}
-              onChange={handleYearChange}
-            >
-              {years.map((year: string) => {
-                return (
-                  <MenuItem value={year.toString()} key={year}>
-                    {year}
-                  </MenuItem>
-                );
-              })}
-            </Select>
-          </FormControl>
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -176,37 +168,60 @@ const CountryHealthIndicators = ({ data, country, code }: Props) => {
             </AccordionDetails>
           </Accordion>
         </Grid>
-        <Grid item xs={12} sm={8}>
-          <List
-            component="nav"
-            className={classes.root}
-            aria-label="mailbox folders"
+        <Grid xs={12} sm={8}>
+          <Grid
+            container
+            spacing={3}
+            direction="column"
+            alignItems="center"
+            justify="center"
           >
-            {indicatorData &&
-              Object.entries(indicatorData)?.map((data: any) => {
-                return (
-                  <div>
-                    <ListItem button>
-                      {" "}
-                      <Typography>
+            <Grid xs={12} sm={12}>
+              <FormControl className={classes.formControl}>
+                <InputLabel id="demo-simple-select-label">Year</InputLabel>
+                <Select
+                  labelId="demo-simple-select-label"
+                  id="demo-simple-select"
+                  value={year}
+                  onChange={handleYearChange}
+                >
+                  {years.map((year: string) => {
+                    return (
+                      <MenuItem value={year.toString()} key={year}>
+                        {year}
+                      </MenuItem>
+                    );
+                  })}
+                </Select>
+              </FormControl>
+              <TableContainer component={Paper}>
+                <Table className={classes.table} aria-label="simple table">
+                  <TableHead>
+                    <TableRow>
+                      <TableCell className={classes.tableHeader}>
                         {" "}
-                        {data[0] + " : " + data[1]}{" "}
-                      </Typography>{" "}
-                    </ListItem>
-                    <Divider />
-                  </div>
-                );
-              })}
-          </List>
-
-          {/* <Table className={classes.table} aria-label="simple table">
-            <TableHead>
-              <TableRow>
-                <TableCell>Total number of population</TableCell>
-                <TableCell>GDP Growth</TableCell>
-              </TableRow>
-            </TableHead>
-          </Table> */}
+                        Total Number Population
+                      </TableCell>
+                      <TableCell className={classes.tableHeader}>
+                        {" "}
+                        GDP Growth %
+                      </TableCell>
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell component="th" scope="row">
+                        {indicatorData?.TotNoPopulation}
+                      </TableCell>
+                      <TableCell component="th" scope="row">
+                        {indicatorData?.GDPGrowth}
+                      </TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </TableContainer>
+            </Grid>
+          </Grid>
         </Grid>
       </Grid>
     </div>
