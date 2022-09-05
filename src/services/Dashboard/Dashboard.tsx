@@ -33,10 +33,10 @@ const useStyles = makeStyles((theme) => ({
     overflow: "hidden",
   },
   mapImage: {
-    width: "60%",
+    width: "40%",
   },
   indicatorImage: {
-    width: "70%",
+    width: "45%",
   },
 }));
 
