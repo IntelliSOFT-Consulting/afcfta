@@ -1,0 +1,82 @@
+[
+  {
+    "Country": "Seychelles",
+    "Total Pharma Import (US Million)": 8.8,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 53,
+    "Readiness assessment score": -17,
+    "id": 0,
+    "code": "SC"
+  },
+  {
+    "Country": "Comoros",
+    "Total Pharma Import (US Million)": 1.1,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 273,
+    "Readiness assessment score": -45,
+    "id": 0,
+    "code": "KM"
+  },
+  {
+    "Country": "Madagascar",
+    "Total Pharma Import (US Million)": 101.8,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 335,
+    "Readiness assessment score": -5,
+    "id": 0,
+    "code": "MG"
+  },
+  {
+    "Country": "Mauritius",
+    "Total Pharma Import (US Million)": 131,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 61,
+    "Readiness assessment score": -2,
+    "id": 0,
+    "code": "MU"
+  },
+  {
+    "Country": "Eritrea",
+    "Total Pharma Import (US Million)": 7.3,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 401,
+    "Readiness assessment score": -5,
+    "id": 0,
+    "code": "ER"
+  },
+  {
+    "Country": "Djibouti",
+    "Total Pharma Import (US Million)": 9.3,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 248,
+    "Readiness assessment score": -12,
+    "id": 0,
+    "code": "DJ"
+  },
+  {
+    "Country": "Ethiopia",
+    "Total Pharma Import (US Million)": 536.1,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 510,
+    "Readiness assessment score": 35,
+    "id": 0,
+    "code": "ET"
+  },
+  {
+    "Country": "Rwanda",
+    "Total Pharma Import (US Million)": 93.3,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 295,
+    "Readiness assessment score": 37,
+    "id": 0,
+    "code": "RW"
+  },
+  {
+    "Country": "Kenya",
+    "Total Pharma Import (US Million)": 558.6,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 480,
+    "Readiness assessment score": 42,
+    "id": 0,
+    "code": "KE"
+  },
+  {
+    "Country": "Sudan",
+    "Total Pharma Import (US Million)": 501.8,
+    "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)": 248,
+    "Readiness assessment score": -24,
+    "id": 0,
+    "code": "SD"
+  }
+]

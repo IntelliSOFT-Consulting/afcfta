@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    width: 100%;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 12px;
+    font-family: var(--primaryFont);
+    background-color: '#fbfbfc'; */
+  }

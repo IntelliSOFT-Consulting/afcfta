@@ -1,0 +1,183 @@
+[
+  {
+    "Country":"Seychelles",
+    "code":"SC",
+    "SOCIO-ECONOMIC_PROFILE":[
+       {
+          "2000":{
+             "TotNoPopulation":"81131",
+             "GDPGrowth":"6"
+          }
+       },
+       {
+          "2018":{
+             "TotNoPopulation":"96760",
+             "GDPGrowth":"3.6 "
+          }
+       }
+    ]
+ },
+ {
+  "Country":"Comoros",
+  "code":"KM",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+},
+{
+  "Country":"Madagascar",
+  "code":"MG",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+},
+{
+  "Country":"Mauritius",
+  "code":"MU",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+},
+{
+  "Country":"Ethiopia",
+  "code":"ET",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+},
+{
+  "Country":"Rwanda",
+  "code":"RW",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+},
+
+  {
+    "Country":"Kenya",
+    "code":"KE",
+    "SOCIO-ECONOMIC_PROFILE":[
+       {
+          "2000":{
+             "TotNoPopulation":"31964557",
+             "GDPGrowth":"8"
+          }
+       },
+       {
+          "2018":{
+             "TotNoPopulation":"51393010",
+             "GDPGrowth":"6.3 "
+          }
+       }
+    ]
+ },
+ {
+  "Country":"Sudan",
+  "code":"SD",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth2018":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+},
+{
+  "Country":"Eritrea",
+  "code":"ER",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+},
+{
+  "Country":"Djibouti",
+  "code":"DJ",
+  "SOCIO-ECONOMIC_PROFILE":[
+     {
+        "2000":{
+           "TotNoPopulation":"81131",
+           "GDPGrowth":"6"
+        }
+     },
+     {
+        "2018":{
+           "TotNoPopulation":"96760",
+           "GDPGrowth":"3.6 "
+        }
+     }
+  ]
+}
+]

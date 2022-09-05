@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84010549.css",
+    "main.js": "/static/js/main.dc01cd6e.js",
+    "static/js/787.5bebfe3a.chunk.js": "/static/js/787.5bebfe3a.chunk.js",
+    "static/media/dashboard-indicators.png": "/static/media/dashboard-indicators.f1be58f55e1cc61802b5.png",
+    "static/media/dashboard-africa-map.png": "/static/media/dashboard-africa-map.b9053557c56d149bbe04.png",
+    "static/media/logo.png": "/static/media/logo.2490c1b40fd6178ecf62.png",
+    "index.html": "/index.html",
+    "main.84010549.css.map": "/static/css/main.84010549.css.map",
+    "main.dc01cd6e.js.map": "/static/js/main.dc01cd6e.js.map",
+    "787.5bebfe3a.chunk.js.map": "/static/js/787.5bebfe3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84010549.css",
+    "static/js/main.dc01cd6e.js"
+  ]
+}
