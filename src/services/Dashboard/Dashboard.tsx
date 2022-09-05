@@ -19,6 +19,19 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     padding: "16px",
   },
+
+  img: {
+    width: "20rem",
+    height: "100%",
+    objectFit: "cover",
+    overflow: "hidden",
+  },
+  partnerships: {
+    width: "50%",
+    height: "100%",
+    objectFit: "cover",
+    overflow: "hidden",
+  },
   mapImage: {
     width: "60%",
   },
