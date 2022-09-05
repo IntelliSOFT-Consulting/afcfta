@@ -1,23 +1,36 @@
-import { Grid, Paper, Typography } from "@material-ui/core";
-import { makeStyles } from "@material-ui/styles";
-import React from "react";
-import Navbar from "../../components/Navbar";
-import africaMap from "../../assets/dashboard-africa-map.png";
-import indicatorsImg from "../../assets/dashboard-indicators.png";
+import { Grid, Paper, Typography } from '@material-ui/core';
+import { makeStyles } from '@material-ui/styles';
+import React from 'react';
+import Navbar from '../../components/Navbar';
+import africaMap from '../../assets/dashboard-africa-map.png';
+import indicatorsImg from '../../assets/dashboard-indicators.png';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    padding: "16px",
+    padding: '16px',
   },
   pageTitle: {
-    textAlign: "center",
-    fontWeight: "bold",
-    fontSize: "24px",
+    textAlign: 'center',
+    fontWeight: 'bold',
+    fontSize: '24px',
   },
   paper: {
-    textAlign: "center",
-    padding: "16px",
+    textAlign: 'center',
+    padding: '16px',
+  },
+
+  img: {
+    width: '20rem',
+    height: '100%',
+    objectFit: 'cover',
+    overflow: 'hidden',
+  },
+  partnerships: {
+    width: '50%',
+    height: '100%',
+    objectFit: 'cover',
+    overflow: 'hidden',
   },
 }));
 
@@ -54,12 +67,16 @@ const Dashboard = () => {
           </Grid>
           <Grid item xs={6} sm={6}>
             <Paper className={classes.paper}>
-              <img src={africaMap} alt={africaMap} />
+              <img src={africaMap} alt={africaMap} className={classes.img} />
             </Paper>
           </Grid>
           <Grid item xs={12} sm={12}>
             <Paper className={classes.paper}>
-              <img src={indicatorsImg} alt={indicatorsImg} />
+              <img
+                src={indicatorsImg}
+                alt={indicatorsImg}
+                className={classes.partnerships}
+              />
             </Paper>
           </Grid>
         </Grid>
