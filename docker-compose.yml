@@ -1,0 +1,10 @@
+services:
+  afcfta-clientt:
+    stdin_open: true
+    restart: unless-stopped
+    container_name: afcfta-client
+    build:
+      dockerfile: docker/Dockerfile
+      context: .
+    ports:
+      - '8000:8000'
