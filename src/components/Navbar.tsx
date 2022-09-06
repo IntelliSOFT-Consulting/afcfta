@@ -39,13 +39,13 @@ const Navbar = () => {
             <img src={Logo} alt="afcfta" className={classes.menuButton} />
           </Link>
 
-          <Link
-            to={"/https://uneca.org/afcfta-anchored-pharma-initiative"}
+          <a
+            href="https://uneca.org/afcfta-anchored-pharma-initiative"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={UNLogo} alt="un-logo" className={classes.menuButton} />
-          </Link>
+          </a>
 
           <Typography variant="h6" className={classes.title}>
             AfCFTA Portal
