@@ -2,6 +2,7 @@ import { AppBar, IconButton, Toolbar, Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Logo from "../assets/logo.png";
+import UNLogo from "../assets/UNlogo.png";
 import { PieChart, Map, LocalLibrary, Help } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
@@ -15,6 +16,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     color: "#fff",
     fontWeight: "bold",
+    textAlign: "center",
+    fontSize: "2rem",
   },
   iconLink: {
     textAlign: "center",
@@ -36,16 +39,26 @@ const Navbar = () => {
             <img src={Logo} alt="afcfta" className={classes.menuButton} />
           </Link>
 
+          <Link
+            to={"/https://uneca.org/afcfta-anchored-pharma-initiative"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={UNLogo} alt="un-logo" className={classes.menuButton} />
+          </Link>
+
           <Typography variant="h6" className={classes.title}>
             AfCFTA Portal
           </Typography>
 
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="http://198.74.52.186/dhis-web-commons/security/login.action"
             className={classes.iconLink}
           >
             <PieChart />
-            <Typography> Dashboard </Typography>
+            <Typography> Data Acquisition </Typography>
           </a>
           <Link to="/country-profile" className={classes.iconLink}>
             <Map />

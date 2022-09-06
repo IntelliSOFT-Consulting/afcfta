@@ -1,6 +1,6 @@
 import { Grid, Paper, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../components/Navbar";
 import africaMap from "../../assets/dashboard-africa-map.png";
 import indicatorsImg from "../../assets/dashboard-indicators.png";
@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Dashboard = () => {
   const classes = useStyles();
+  // const [readMore,setReadMore]=useState(false);
 
   return (
     <div>
