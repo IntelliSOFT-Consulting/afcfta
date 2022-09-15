@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
+  navbar: {
+    borderBottom: "8px solid #CD0808",
+  },
   menuButton: {
     marginRight: theme.spacing(2),
   },
@@ -23,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     marginRight: "8px",
     marginLeft: "8px",
-    color: "#fff",
+    color: theme.palette.secondary.main,
     textDecoration: "none",
   },
 }));
@@ -33,7 +36,7 @@ const Navbar = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.navbar}>
         <Toolbar>
           <Link to={"/"}>
             <img src={Logo} alt="afcfta" className={classes.menuButton} />
@@ -69,7 +72,7 @@ const Navbar = () => {
             <Typography> Scorecard</Typography>
           </Link>
           <Link to="" className={classes.iconLink}>
-            <Help />
+            <Help color="secondary" />
             <Typography> FAQs</Typography>
           </Link>
         </Toolbar>
