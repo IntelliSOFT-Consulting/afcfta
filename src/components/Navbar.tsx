@@ -8,7 +8,6 @@ import { PieChart, Map, LocalLibrary, Help } from "@material-ui/icons";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    fontSize: "0.9rem",
   },
   navbar: {
     borderBottom: "8px solid #CD0808",
@@ -62,19 +61,25 @@ const Navbar = () => {
             className={classes.iconLink}
           >
             <PieChart />
-            <Typography> Data Entry </Typography>
+            <Typography style={{ fontSize: "0.9rem" }}> Data Entry </Typography>
           </a>
           <Link to="/country-profile" className={classes.iconLink}>
             <Map />
-            <Typography> Country Profile</Typography>
+            <Typography style={{ fontSize: "0.9rem" }}>
+              {" "}
+              Country Profile
+            </Typography>
           </Link>
           <Link to="" className={classes.iconLink}>
             <LocalLibrary />
-            <Typography> Data sources & Definitions</Typography>
+            <Typography style={{ fontSize: "0.9rem" }}>
+              {" "}
+              Data sources & Definitions
+            </Typography>
           </Link>
           <Link to="" className={classes.iconLink}>
             <Help color="secondary" />
-            <Typography> FAQs</Typography>
+            <Typography style={{ fontSize: "0.9rem" }}> FAQs</Typography>
           </Link>
         </Toolbar>
       </AppBar>
