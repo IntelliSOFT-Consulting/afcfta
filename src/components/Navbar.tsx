@@ -8,6 +8,7 @@ import { PieChart, Map, LocalLibrary, Help } from "@material-ui/icons";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    fontSize: "0.9rem",
   },
   navbar: {
     borderBottom: "8px solid #CD0808",

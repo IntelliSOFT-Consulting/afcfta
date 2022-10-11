@@ -5,18 +5,9 @@
           "Brand": "Pitocin",
           "Presentation": "Injection",
           "Concentration": "10 IL, 1ml",
-          "Gnerics Available": 15,
+          "Generics Available": 15,
           "Is Product Registered?": "Y",
           "Is It Part of The Public EML?": "Y"
-      },
-      "ProcurementInformation": {
-        "Procuring Sectors (Public, Private, Public&Private)": "Pitocin",
-        "Procurement Modality (Decentralized/Centralized)": "Injection",
-        "Name of Public Procurment Agent in country": "10 IL, 1ml",
-        "Est. % of Product by Public Procurment Agency": 15,
-        "How is Procurement Financed (Dev Partner, Public, Private)": "Y",
-        "Any Forecasting Done, yrs? (Y/N)": "Y",
-        "Public Procurement Lead time?": ""
       },
       "ProcurementVolumePricing": {
         "Annual Volume Procured, Units (Public Sector)": "",
@@ -29,6 +20,17 @@
         "TOTAL ANNUAL COST OF PROCUREMENT (ALL SECTORS)": "",
         "INTERNATIONAL UNIT PRICE BENCHMARKING (source)": "$ 0.1557"
       },
+
+      "ProcurementInformation": {
+        "Procuring Sectors": "Public & Private",
+        "Procurement Modality": "Decentralized",
+        "Name of Public Procurement Agent": "KEMSA",
+        "Est. % of Product by Public Procurment Agency": "",
+        "How is Procurement Financed": "Dev Partner",
+        "Any Forecasting Done, yrs? (Y/N)": "Y, 3 years",
+        "Public Procurement Lead time?": ""
+      },
+      
       "ProductVendorInformation": {
         "No. of Local Vendor/ Producer for product": 1,
         "No. of registered African Vendors for Product (Top Country)": "1 (South Africa)",

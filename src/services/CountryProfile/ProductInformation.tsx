@@ -83,26 +83,6 @@ const ProductInformation = () => {
               id="panel1a-header"
             >
               <Typography className={classes.heading}>
-                Procurement Information
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div className={classes.productDetails}>
-                {Object.entries(
-                  productInformation[0]["ProcurementInformation"]
-                ).map((data: any) => {
-                  return <Typography> {data[0] + " : " + data[1]} </Typography>;
-                })}
-              </div>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography className={classes.heading}>
                 Procurement Volume and Pricing
               </Typography>
             </AccordionSummary>
@@ -116,6 +96,28 @@ const ProductInformation = () => {
               </div>
             </AccordionDetails>
           </Accordion>
+
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography className={classes.heading}>
+                Procurement Information
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div className={classes.productDetails}>
+                {Object.entries(
+                  productInformation[0]["ProcurementInformation"]
+                ).map((data: any) => {
+                  return <Typography> {data[0] + " : " + data[1]} </Typography>;
+                })}
+              </div>
+            </AccordionDetails>
+          </Accordion>
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}

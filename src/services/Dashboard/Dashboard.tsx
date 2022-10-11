@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     padding: "16px",
+    fontSize: "0.9rem",
   },
   pageTitle: {
     textAlign: "center",
@@ -18,6 +19,10 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     textAlign: "center",
     padding: "16px",
+  },
+
+  intro: {
+    textAlign: "left",
   },
 
   img: {
@@ -54,7 +59,7 @@ const Dashboard = () => {
           </Grid>
           <Grid item xs={6} sm={6}>
             <Paper className={classes.paper} style={{ height: "100%" }}>
-              <Typography>
+              <Typography className={classes.paper}>
                 As part of its mandate to deliver on Agenda 2063, the SDGs and
                 operationalization of the African Continental Free Area (AfCFTA)
                 by translating ideas into action and in line with its commitment
