@@ -61,7 +61,7 @@ const Navbar = () => {
             className={classes.iconLink}
           >
             <PieChart />
-            <Typography> Data Acquisition </Typography>
+            <Typography> Data Entry </Typography>
           </a>
           <Link to="/country-profile" className={classes.iconLink}>
             <Map />
@@ -69,7 +69,7 @@ const Navbar = () => {
           </Link>
           <Link to="" className={classes.iconLink}>
             <LocalLibrary />
-            <Typography> Scorecard</Typography>
+            <Typography> Data sources & Definitions</Typography>
           </Link>
           <Link to="" className={classes.iconLink}>
             <Help color="secondary" />

@@ -53,7 +53,7 @@ const Dashboard = () => {
             <Typography className={classes.pageTitle}>Project Brief</Typography>
           </Grid>
           <Grid item xs={6} sm={6}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} style={{ height: "100%" }}>
               <Typography>
                 As part of its mandate to deliver on Agenda 2063, the SDGs and
                 operationalization of the African Continental Free Area (AfCFTA)
@@ -73,7 +73,7 @@ const Dashboard = () => {
             </Paper>
           </Grid>
           <Grid item xs={6} sm={6}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} style={{ height: "100%" }}>
               <img
                 src={africaMap}
                 alt={africaMap}
