@@ -25,16 +25,23 @@ const useStyles = makeStyles((theme) => ({
 const ProductInformation = () => {
   const classes = useStyles();
 
-  const [activeProduct, setActiveProduct] = useState<string>("");
+  const [activeProduct, setActiveProduct] = useState<string>("Oxytocin");
+  const [productData, setProductData] = useState<any[] | null>(null);
 
   const names = productInformation?.map(({ Product }) => Product);
-  const productData = productInformation?.filter(
-    (product) => product.Product === activeProduct
-  );
 
   const handleProductChange = (event: any) => {
     setActiveProduct(event.target.value);
   };
+
+  useEffect(() => {
+    const productData = productInformation?.filter(
+      (product) => product.Product === activeProduct
+    );
+    setProductData(productData);
+  }, [activeProduct]);
+
+  console.log(productData);
 
   return (
     <div>
@@ -70,16 +77,17 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(productData[0]["ProductInformation"]).map(
-                  (data: any, index: any) => {
-                    return (
-                      <Typography key={index}>
-                        {" "}
-                        {data[0] + " : " + data[1]}{" "}
-                      </Typography>
-                    );
-                  }
-                )}
+                {productData &&
+                  Object.entries(productData[0]["ProductInformation"]).map(
+                    (data: any, index: any) => {
+                      return (
+                        <Typography key={index}>
+                          {" "}
+                          {data[0] + " : " + data[1]}{" "}
+                        </Typography>
+                      );
+                    }
+                  )}
               </div>
             </AccordionDetails>
           </Accordion>
@@ -96,16 +104,17 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(productData[0]["ProcurementVolumePricing"]).map(
-                  (data: any, index: any) => {
+                {productData &&
+                  Object.entries(
+                    productData[0]["ProcurementVolumePricing"]
+                  ).map((data: any, index: any) => {
                     return (
                       <Typography key={index}>
                         {" "}
                         {data[0] + " : " + data[1]}{" "}
                       </Typography>
                     );
-                  }
-                )}
+                  })}
               </div>
             </AccordionDetails>
           </Accordion>
@@ -122,16 +131,17 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(productData[0]["ProcurementInformation"]).map(
-                  (data: any, index: any) => {
-                    return (
-                      <Typography key={index}>
-                        {" "}
-                        {data[0] + " : " + data[1]}{" "}
-                      </Typography>
-                    );
-                  }
-                )}
+                {productData &&
+                  Object.entries(productData[0]["ProcurementInformation"]).map(
+                    (data: any, index: any) => {
+                      return (
+                        <Typography key={index}>
+                          {" "}
+                          {data[0] + " : " + data[1]}{" "}
+                        </Typography>
+                      );
+                    }
+                  )}
               </div>
             </AccordionDetails>
           </Accordion>
@@ -148,16 +158,17 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(productData[0]["ProductVendorInformation"]).map(
-                  (data: any, index: any) => {
+                {productData &&
+                  Object.entries(
+                    productData[0]["ProductVendorInformation"]
+                  ).map((data: any, index: any) => {
                     return (
                       <Typography key={index}>
                         {" "}
                         {data[0] + " : " + data[1]}{" "}
                       </Typography>
                     );
-                  }
-                )}
+                  })}
               </div>
             </AccordionDetails>
           </Accordion>
@@ -174,16 +185,17 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(productData[0]["ProductAffordability"]).map(
-                  (data: any, index: any) => {
-                    return (
-                      <Typography key={index}>
-                        {" "}
-                        {data[0] + " : " + data[1]}{" "}
-                      </Typography>
-                    );
-                  }
-                )}
+                {productData &&
+                  Object.entries(productData[0]["ProductAffordability"]).map(
+                    (data: any, index: any) => {
+                      return (
+                        <Typography key={index}>
+                          {" "}
+                          {data[0] + " : " + data[1]}{" "}
+                        </Typography>
+                      );
+                    }
+                  )}
               </div>
             </AccordionDetails>
           </Accordion>
