@@ -1,0 +1,452 @@
+[
+   {
+     "Product": "Oxytocin",
+     "ProductInformation": {
+       "Name: Originator Brand": "Pitocin",
+       "Presentation of Product": "Injection",
+       "Product Concentration": "10 IU/ml",
+       "No. of Generics Available In Country": "15",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public & Private",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": "KEMSA",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Dev Partner",
+       "Any Forecasting Done, Yrs? ": "Y, 3 years",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "  3,107,650.00 ",
+       " Recent Public Procurement Median Unit Price (USD$) ": " $ 0.15 ",
+       " Annual Public Cost of Procurement  ": " $ 452,784.61 ",
+       " Annual Total Product Consumption/Utilised?  ": "  3,107,650.00 ",
+       " Annual Volume Procured, Units (Private Sector) ": "  4,136,289.39 ",
+       " Recent Private Procurement Median Unit Price (USD$) ": " $ 0.78 ",
+       " Annual Private Cost of Procurement  ": " $ 3,226,305.7273 ",
+       " Total Annual Cost of Procurement (All Sectors) ": " $ 3,679,090.33 ",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.16 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "1",
+       " No. of registered African Vendors for Product (Top Country) ": "1 (South Africa)",
+       " No. of Non-African Vendors of Product ": "  10 ",
+       " Top 3 Non-African Vendors Country of Origin ": " India; China, XX ",
+       " Top Vendor Performance? ": " How they enter this? ",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "1.29",
+       "MPR - Median Price Ratio-Generic/Private": "2.42",
+       "MPR - Median Price Ratio -  Originators /Public": "0.13",
+       "MPR - Median Price Ratio - Originators/Private": "8.70"
+     }
+   },
+   {
+     "Product": "Heat stable Carbetocin",
+     "ProductInformation": {
+       "Name: Originator Brand": "Pabal",
+       "Presentation of Product": "Injection",
+       "Product Concentration": "100 mcg/ml, 1ml",
+       "No. of Generics Available In Country": "1",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Private",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public",
+       "Any Forecasting Done, Yrs? ": "N",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "",
+       " Recent Public Procurement Median Unit Price (USD$) ": "",
+       " Annual Public Cost of Procurement  ": " $ -   ",
+       " Annual Total Product Consumption/Utilised?  ": "",
+       " Annual Volume Procured, Units (Private Sector) ": "  -   ",
+       " Recent Private Procurement Median Unit Price (USD$) ": " $ 11.81 ",
+       " Annual Private Cost of Procurement  ": "",
+       " Total Annual Cost of Procurement (All Sectors) ": ""
+     },
+     "ProductVendorInformation": {
+       " International Unit Price Benchmarking (MSH, 2015) ": "",
+       " No. of Local Vendor/ Producer for product ": "1",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "Germany,",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "",
+       "MPR - Median Price Ratio-Generic/Private": "",
+       "MPR - Median Price Ratio -  Originators /Public": "",
+       "MPR - Median Price Ratio - Originators/Private": ""
+     }
+   },
+   {
+     "Product": "Misoprostol (Tablets)",
+     "ProductInformation": {
+       "Name: Originator Brand": "Cytotec",
+       "Presentation of Product": "Tablet",
+       "Product Concentration": "200mg/tablet",
+       "No. of Generics Available In Country": "7",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public and Private",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public",
+       "Any Forecasting Done, Yrs? ": "Y, 3 years",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "  554,925.00 ",
+       " Recent Public Procurement Median Unit Price (USD$) ": " $ 0.30 ",
+       " Annual Public Cost of Procurement  ": " $ 167,254.40 ",
+       " Annual Total Product Consumption/Utilised?  ": "  554,925.00 ",
+       " Annual Volume Procured, Units (Private Sector) ": "  738,606.47 ",
+       " Recent Private Procurement Median Unit Price (USD$) ": " $ 0.20 ",
+       " Annual Private Cost of Procurement  ": " $ 147,721.2937 ",
+       " Total Annual Cost of Procurement (All Sectors) ": " $ 314,975.69 ",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.18 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "9",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": " India, UK ",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "0.50",
+       "MPR - Median Price Ratio-Generic/Private": "2.30718232",
+       "MPR - Median Price Ratio -  Originators /Public": "1.67",
+       "MPR - Median Price Ratio - Originators/Private": "3.62"
+     }
+   },
+   {
+     "Product": "Zinc Sulphate/Citrate/Gluconate/Acetate)",
+     "ProductInformation": {
+       "Name: Originator Brand": "Orazinc",
+       "Presentation of Product": "Dispersible Tablet",
+       "Product Concentration": "20mg ZnSO4 /tablet",
+       "No. of Generics Available In Country": "6",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public and Private",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public & Dev Partner",
+       "Any Forecasting Done, Yrs? ": "Y, 3 years",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "  9,905,865.00 ",
+       " Recent Public Procurement Median Unit Price (USD$) ": " $ 0.03 ",
+       " Annual Public Cost of Procurement  ": " $ 290,241.84 ",
+       " Annual Total Product Consumption/Utilised?  ": "  9,905,865.00 ",
+       " Annual Volume Procured, Units (Private Sector) ": "  13,184,729.41 ",
+       " Recent Private Procurement Median Unit Price (USD$) ": " $ 0.37 ",
+       " Annual Private Cost of Procurement  ": " $ 4,878,349.8801 ",
+       " Total Annual Cost of Procurement (All Sectors) ": " $ 5,168,591.72 ",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.02 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "7",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "India, Bangladesh",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "1.59",
+       "MPR - Median Price Ratio-Generic/Private": "0.6902173913",
+       "MPR - Median Price Ratio -  Originators /Public": "4.91",
+       "MPR - Median Price Ratio - Originators/Private": "2.13"
+     }
+   },
+   {
+     "Product": "Amoxicillin",
+     "ProductInformation": {
+       "Name: Originator Brand": "Amoxil",
+       "Presentation of Product": "Dispersible Tablet",
+       "Product Concentration": "250mg / tablet",
+       "No. of Generics Available In Country": "9",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public and Private",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public & Dev Partner",
+       "Any Forecasting Done, Yrs? ": "Y, 3 years",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "  31,037,584.00 ",
+       " Recent Public Procurement Median Unit Price (USD$) ": " $ 0.04 ",
+       " Annual Public Cost of Procurement  ": " $ 1,089,419.20 ",
+       " Annual Total Product Consumption/Utilised?  ": "  31,037,584.00 ",
+       " Annual Volume Procured, Units (Private Sector) ": "  41,311,096.65 ",
+       " Recent Private Procurement Median Unit Price (USD$) ": " $ 0.05 ",
+       " Annual Private Cost of Procurement  ": " $ 2,065,554.8326 ",
+       " Total Annual Cost of Procurement (All Sectors) ": " $ 3,154,974.03 ",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.03 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": ">10",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "India, Austria",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "0.78",
+       "MPR - Median Price Ratio-Generic/Private": "1.701587302",
+       "MPR - Median Price Ratio -  Originators /Public": "1.11",
+       "MPR - Median Price Ratio - Originators/Private": "38.54"
+     }
+   },
+   {
+     "Product": "Magnesium Sulfate",
+     "ProductInformation": {
+       "Name: Originator Brand": "Magneon",
+       "Presentation of Product": "Injection",
+       "Product Concentration": "500 mg/mL, 5mL ampule",
+       "No. of Generics Available In Country": "4",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public & Private",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public",
+       "Any Forecasting Done, Yrs? ": "Y, 3 years",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "  92,624.00 ",
+       " Recent Public Procurement Median Unit Price (USD$) ": " $ 1.00 ",
+       " Annual Public Cost of Procurement  ": " $ 93,050.07 ",
+       " Annual Total Product Consumption/Utilised?  ": "  92,624.00 ",
+       " Annual Volume Procured, Units (Private Sector) ": "  123,282.76 ",
+       " Recent Private Procurement Median Unit Price (USD$) ": "",
+       " Annual Private Cost of Procurement  ": " $ -   ",
+       " Total Annual Cost of Procurement (All Sectors) ": " $ 93,050.07 ",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.07 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "4",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "India, UK, ",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "0.71",
+       "MPR - Median Price Ratio-Generic/Private": "26.77111717",
+       "MPR - Median Price Ratio -  Originators /Public": "13.69",
+       "MPR - Median Price Ratio - Originators/Private": "30.72"
+     }
+   },
+   {
+     "Product": "Ergometrine",
+     "ProductInformation": {
+       "Name: Originator Brand": "Syntomentrine",
+       "Presentation of Product": "Injection",
+       "Product Concentration": "500 mcg/ml",
+       "No. of Generics Available In Country": "2",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public",
+       "Any Forecasting Done, Yrs? ": "N",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "",
+       " Recent Public Procurement Median Unit Price (USD$) ": "",
+       " Annual Public Cost of Procurement  ": "",
+       " Annual Total Product Consumption/Utilised?  ": "",
+       " Annual Volume Procured, Units (Private Sector) ": "  -   ",
+       " Recent Private Procurement Median Unit Price (USD$) ": "",
+       " Annual Private Cost of Procurement  ": " $ -   ",
+       " Total Annual Cost of Procurement (All Sectors) ": "",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.18 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "2",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "India",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "",
+       "MPR - Median Price Ratio-Generic/Private": "",
+       "MPR - Median Price Ratio -  Originators /Public": "",
+       "MPR - Median Price Ratio - Originators/Private": "0.96"
+     }
+   },
+   {
+     "Product": "Labetalol",
+     "ProductInformation": {
+       "Name: Originator Brand": "Trandate ",
+       "Presentation of Product": "Injection",
+       "Product Concentration": "5mg/ml",
+       "No. of Generics Available In Country": "10",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public",
+       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public",
+       "Any Forecasting Done, Yrs? ": "Y, 3 years",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "  3,594.00 ",
+       " Recent Public Procurement Median Unit Price (USD$) ": " $ 0.96 ",
+       " Annual Public Cost of Procurement  ": " $ 3,460.30 ",
+       " Annual Total Product Consumption/Utilised?  ": "  3,594.00 ",
+       " Annual Volume Procured, Units (Private Sector) ": "  4,783.62 ",
+       " Recent Private Procurement Median Unit Price (USD$) ": "",
+       " Annual Private Cost of Procurement  ": " $ -   ",
+       " Total Annual Cost of Procurement (All Sectors) ": " $ 3,460.30 ",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.02 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "2",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "India",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "",
+       "MPR - Median Price Ratio-Generic/Private": "39.24444444",
+       "MPR - Median Price Ratio -  Originators /Public": "53.30",
+       "MPR - Median Price Ratio - Originators/Private": "48.25"
+     }
+   },
+   {
+     "Product": "Levonorgestrel",
+     "ProductInformation": {
+       "Name: Originator Brand": "Jadelle",
+       "Presentation of Product": "Implant",
+       "Product Concentration": "150 mg/set",
+       "No. of Generics Available In Country": "",
+       "Is Product Registered in Country? ": "",
+       "Is it Part of the Public EML? ": ""
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "Public",
+       "Procurement Modality (Decentralized/Centralized)": "Centralized",
+       "Name of Public Procurement Agent in country": " KEMSA",
+       "Est. % of Product by Public Procurement Agency": "100%",
+       "How is Procurement Financed ": "Dev Partner + Public",
+       "Any Forecasting Done, Yrs? ": "Y, 3 years",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "  397,078.00 ",
+       " Recent Public Procurement Median Unit Price (USD$) ": " $ 9.68 ",
+       " Annual Public Cost of Procurement  ": " $ 3,843,715.04 ",
+       " Annual Total Product Consumption/Utilised?  ": "  397,078.00 ",
+       " Annual Volume Procured, Units (Private Sector) ": "  -   ",
+       " Recent Private Procurement Median Unit Price (USD$) ": " $ 12.62 ",
+       " Annual Private Cost of Procurement  ": " $ -   ",
+       " Total Annual Cost of Procurement (All Sectors) ": " $ 3,843,715.04 ",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 5.55 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "2",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "Finland, China",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "",
+       "MPR - Median Price Ratio-Generic/Private": "",
+       "MPR - Median Price Ratio -  Originators /Public": "",
+       "MPR - Median Price Ratio - Originators/Private": ""
+     }
+   },
+   {
+     "Product": "Clomifene ",
+     "ProductInformation": {
+       "Name: Originator Brand": "Clomid ",
+       "Presentation of Product": "Tablet",
+       "Product Concentration": "50 mg ",
+       "No. of Generics Available In Country": "3",
+       "Is Product Registered in Country? ": "Y",
+       "Is it Part of the Public EML? ": "Y"
+     },
+     "ProcurementInformation": {
+       "Procuring Sectors (Public, Private, Public&Private)": "",
+       "Procurement Modality (Decentralized/Centralized)": "",
+       "Name of Public Procurement Agent in country": " KEMSA ",
+       "Est. % of Product by Public Procurement Agency": "70",
+       "How is Procurement Financed ": "Public",
+       "Any Forecasting Done, Yrs? ": "N",
+       "Public Procurement Lead time? ": ""
+     },
+     "ProcurementVolumePricing": {
+       " Annual Volume Procured, Units (Public Sector) ": "",
+       " Recent Public Procurement Median Unit Price (USD$) ": "",
+       " Annual Public Cost of Procurement  ": "",
+       " Annual Total Product Consumption/Utilised?  ": "",
+       " Annual Volume Procured, Units (Private Sector) ": "",
+       " Recent Private Procurement Median Unit Price (USD$) ": "",
+       " Annual Private Cost of Procurement  ": "",
+       " Total Annual Cost of Procurement (All Sectors) ": "",
+       " International Unit Price Benchmarking (MSH, 2015) ": " $ 0.18 "
+     },
+     "ProductVendorInformation": {
+       " No. of Local Vendor/ Producer for product ": "3",
+       " No. of registered African Vendors for Product (Top Country) ": "",
+       " No. of Non-African Vendors of Product ": "",
+       " Top 3 Non-African Vendors Country of Origin ": "India, Pakistan, Bangladesh",
+       " Top Vendor Performance? ": "",
+       " Other Relevant Comments on Vendor ": ""
+     },
+     "ProductAffordability": {
+       "MPR - Median Price Ratio- Generic public": "",
+       "MPR - Median Price Ratio-Generic/Private": "0.1417278374",
+       "MPR - Median Price Ratio -  Originators /Public": "1.10",
+       "MPR - Median Price Ratio - Originators/Private": "2.04"
+     }
+   }
+ ]

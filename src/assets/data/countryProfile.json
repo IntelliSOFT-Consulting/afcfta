@@ -1,0 +1,82 @@
+[
+  {
+     "Country":"Kenya ",
+     "Annual Volume Procured in USD in the Public Sector":"3,107,650.00",
+     "Annual Public Cost of Procurement in USD":"$452,784.61",
+     "Total Pharma Import (US Million)":"558.6",
+     "id":"1",
+     "code":"KE"
+  },
+  {
+     "Country":"Seychelles",
+     "Annual Volume Procured in USD in the Public Sector":"4,107,650.00",
+     "Annual Public Cost of Procurement in USD":"$352,784.61",
+     "Total Pharma Import (US Million)":"8.8",
+     "id":"2",
+     "code":"SC"
+  },
+  {
+     "Country":"Comoros ",
+     "Annual Volume Procured in USD in the Public Sector":"554925",
+     "Annual Public Cost of Procurement in USD":"167254",
+     "Total Pharma Import (US Million)":"1.1",
+     "id":"3",
+     "code":"KM"
+  },
+  {
+     "Country":"Madagascar ",
+     "Annual Volume Procured in USD in the Public Sector":"9905865",
+     "Annual Public Cost of Procurement in USD":"290242",
+     "Total Pharma Import (US Million)":"101.8",
+     "id":"4",
+     "code":"MG"
+  },
+  {
+     "Country":"Mauritius",
+     "Annual Volume Procured in USD in the Public Sector":"31037584",
+     "Annual Public Cost of Procurement in USD":"1089419",
+     "Total Pharma Import (US Million)":"131.0",
+     "id":"5",
+     "code":"MU"
+  },
+  {
+     "Country":"Djibouti",
+     "Annual Volume Procured in USD in the Public Sector":"  92,624.00 ",
+     "Annual Public Cost of Procurement in USD":" $ 93,050.07 ",
+     "Total Pharma Import (US Million)":"9.3",
+     "id":"6",
+     "code":"DJ"
+  },
+  {
+     "Country":"Ethiopia",
+     "Annual Volume Procured in USD in the Public Sector":"3594",
+     "Annual Public Cost of Procurement in USD":"3460",
+     "Total Pharma Import (US Million)":"536.1",
+     "id":"7",
+     "code":"ET"
+  },
+  {
+     "Country":"Rwanda",
+     "Annual Volume Procured in USD in the Public Sector":"  397,078.00 ",
+     "Annual Public Cost of Procurement in USD":"  3,843,715.04 ",
+     "Total Pharma Import (US Million)":"93.3",
+     "id":"8",
+     "code":"RW"
+  },
+  {
+     "Country":"Eritrea",
+     "Annual Volume Procured in USD in the Public Sector":"118,956.00",
+     "Annual Public Cost of Procurement in USD":"$51,151.08",
+     "Total Pharma Import (US Million)":"7.3",
+     "id":"9",
+     "code":"ER"
+  },
+  {
+     "Country":"Sudan",
+     "Annual Volume Procured in USD in the Public Sector":"270000",
+     "Annual Public Cost of Procurement in USD":"$71,151.08",
+     "Total Pharma Import (US Million)":"501.8",
+     "id":"10",
+     "code":"SD"
+  }
+]

@@ -1,0 +1,50 @@
+[
+    {
+      "ProductName": "Oxytocin",
+      "ProductInformation": {
+          "Brand": "Pitocin",
+          "Presentation": "Injection",
+          "Concentration": "10 IL, 1ml",
+          "Generics Available": 15,
+          "Is Product Registered?": "Y",
+          "Is It Part of The Public EML?": "Y"
+      },
+
+      "ProcurementInformation": {
+        "Procuring Sectors": "Public & Private",
+        "Procurement Modality": "Decentralized",
+        "Name of Public Procurement Agent": "KEMSA",
+        "Est. % of Product by Public Procurement Agency": "",
+        "How is Procurement Financed": "Dev Partner",
+        "Any Forecasting Done, yrs? (Y/N)": "Y, 3 years",
+        "Public Procurement Lead time?": ""
+      },
+
+      "ProcurementVolumePricing": {
+        "Annual Volume Procured, Units (Public Sector)": "",
+        "Recent Public Procurement Median Unit Price (USD$)": "$ 0.1008",
+        "Annual Public Cost of Procurement (Tot Vol * Unit Price)": "$ 2,213,602.15",
+        "Annual Total Product Consumption/Utilised? (Specify if public sector only or pooled if available info)": "3,419,224.75",
+        "Annual Volume Procured, Units (Private Sector)": "",
+        "Recent Private Procurement Median Unit Price (USD$)": "$ 0.7800",
+        "Annual Private Cost of Procurement (Tot Vol * Unit Price)": "",
+        "TOTAL ANNUAL COST OF PROCUREMENT (ALL SECTORS)": "",
+        "INTERNATIONAL UNIT PRICE BENCHMARKING (source)": "$ 0.1557"
+      },
+      
+      "ProductVendorInformation": {
+        "No. of Local Vendor/ Producer for product": 1,
+        "No. of registered African Vendors for Product (Top Country)": "1 (South Africa)",
+        "No. of Non-African Vendors of Product": 10,
+        "Top 3 Non-African Vendors Country of Origin": "India; China, XX",
+        "Top Vendor Performance?": "How they enter this?",
+        "Other Relevant Comments on Vendor, please specify": ""
+      },
+      "ProductAffordability":{
+        "MPR - Median Price Ratio- Generic public": 0.65,
+        "MPR - Median Price Ratio-Generic/Private": 5.01,
+        "MPR - Median Price Ratio -  Originators /public": "$ 1.00",
+        "MPR - Median Price Ratio - Originators/Private": "$ 1.24"
+      }
+    } 
+  ]
