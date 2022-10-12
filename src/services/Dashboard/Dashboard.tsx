@@ -2,8 +2,8 @@ import { Grid, Paper, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import React, { useState } from "react";
 import Navbar from "../../components/Navbar";
-import africaMap from "../../assets/dashboard-africa-map.png";
-import indicatorsImg from "../../assets/dashboard-indicators.png";
+import africaMap from "../../assets/images/dashboard-africa-map.png";
+import indicatorsImg from "../../assets/images/dashboard-indicators.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -5,7 +5,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import productInformation from "../../assets/productInformation.json";
+import productInformation from "../../assets/data/productInformation.json";
 import { Grid } from "@material-ui/core";
 import { DragIndicatorSharp } from "@material-ui/icons";
 

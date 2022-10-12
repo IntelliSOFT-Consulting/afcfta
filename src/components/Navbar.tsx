@@ -1,8 +1,8 @@
 import { AppBar, IconButton, Toolbar, Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
-import Logo from "../assets/logo.png";
-import UNLogo from "../assets/UNlogo.png";
+import Logo from "../assets/images/logo.png";
+import UNLogo from "../assets/images/UNlogo.png";
 import { PieChart, Map, LocalLibrary, Help } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({

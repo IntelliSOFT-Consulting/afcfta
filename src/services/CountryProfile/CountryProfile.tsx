@@ -6,8 +6,8 @@ import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import highchartsMap from "highcharts/modules/map";
 import africaMapData from "@highcharts/map-collection/custom/africa.geo.json";
-import countryProfileData from "../../assets/countryProfile.json";
-import countryHealthIndicatorData from "../../assets/countryHealthIndicators.json";
+import countryProfileData from "../../assets/data/countryProfile.json";
+import countryHealthIndicatorData from "../../assets/data/countryHealthIndicators.json";
 import ProductInformation from "./ProductInformation";
 import CountryHealthIndicators from "./CountryHealthIndicators";
 
@@ -66,16 +66,14 @@ const CountryProfile = () => {
           this.point["Total Pharma Import (US Million)"] +
           "<br>" +
           "<b>" +
-          "Maternal Mortality Rate: " +
+          "Annual Volume Procured in USD in the Public Sector: " +
           "</b>" +
-          this.point[
-            "Maternal Mortality Rate (MMR)/ 100,000 live births (WHO - GHO data)"
-          ] +
+          this.point["Annual Volume Procured in USD in the Public Sector"] +
           "<br>" +
           "<b>" +
-          "Readiness assessment score: " +
+          "Annual Public Cost of Procurement in USD" +
           "</b>" +
-          this.point["Readiness assessment score"]
+          this.point["Annual Public Cost of Procurement in USD"]
         );
       },
     },
