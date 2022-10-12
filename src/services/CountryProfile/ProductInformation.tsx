@@ -5,9 +5,8 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import productInformation from "../../assets/data/productInformation.json";
-import { Grid } from "@material-ui/core";
-import { DragIndicatorSharp } from "@material-ui/icons";
+import productInformation from "../../assets/data/product.json";
+import { FormControl, Grid, NativeSelect } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,43 +16,46 @@ const useStyles = makeStyles((theme) => ({
   productDetails: {
     display: "block",
   },
+  formControl: {
+    margin: theme.spacing(1),
+    minWidth: 200,
+  },
 }));
-
-// type Props = {
-//   data: any[];
-//   country: string;
-//   code: string;
-// };
-
-interface productInformationType {
-  ProductName: string;
-  ProductInformation: {
-    Brand: string;
-    Presentation: string;
-    Concentration: string;
-    GnericsAvailable: number;
-    IsProductRegistered?: string;
-    IsItPartOfThePublicEML: string;
-  };
-}
 
 const ProductInformation = () => {
   const classes = useStyles();
-  //   const [indicatorData, setIndicatorData] = useState([]);
 
-  //   const parseData = (subIndicator: string) => {
-  //     const str = "ProductInformation";
-  //     const indicators: any = Object.entries(
-  //       productInformation[0].ProductInformation
-  //     );
-  //     return indicators;
-  //   };
+  const [activeProduct, setActiveProduct] = useState<string>("");
+
+  const names = productInformation?.map(({ Product }) => Product);
+  const productData = productInformation?.filter(
+    (product) => product.Product === activeProduct
+  );
+
+  const handleProductChange = (event: any) => {
+    setActiveProduct(event.target.value);
+  };
 
   return (
     <div>
-      <Grid container spacing={3}>
+      <Grid container>
         <Grid item xs={6} sm={4}>
-          <Typography> {productInformation[0].ProductName} </Typography>
+          <FormControl className={classes.formControl}>
+            <NativeSelect
+              value={activeProduct}
+              onChange={handleProductChange}
+              defaultValue={names[0]}
+              inputProps={{ "aria-label": "product" }}
+            >
+              {names.map((product: string) => {
+                return (
+                  <option value={product} key={product}>
+                    {product}
+                  </option>
+                );
+              })}
+            </NativeSelect>
+          </FormControl>
         </Grid>
         <Grid item xs={6} sm={8}>
           <Accordion>
@@ -68,14 +70,20 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(
-                  productInformation[0]["ProductInformation"]
-                ).map((data: any) => {
-                  return <Typography> {data[0] + " : " + data[1]} </Typography>;
-                })}
+                {Object.entries(productData[0]["ProductInformation"]).map(
+                  (data: any, index: any) => {
+                    return (
+                      <Typography key={index}>
+                        {" "}
+                        {data[0] + " : " + data[1]}{" "}
+                      </Typography>
+                    );
+                  }
+                )}
               </div>
             </AccordionDetails>
           </Accordion>
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -88,11 +96,16 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(
-                  productInformation[0]["ProcurementVolumePricing"]
-                ).map((data: any) => {
-                  return <Typography> {data[0] + " : " + data[1]} </Typography>;
-                })}
+                {Object.entries(productData[0]["ProcurementVolumePricing"]).map(
+                  (data: any, index: any) => {
+                    return (
+                      <Typography key={index}>
+                        {" "}
+                        {data[0] + " : " + data[1]}{" "}
+                      </Typography>
+                    );
+                  }
+                )}
               </div>
             </AccordionDetails>
           </Accordion>
@@ -109,11 +122,16 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(
-                  productInformation[0]["ProcurementInformation"]
-                ).map((data: any) => {
-                  return <Typography> {data[0] + " : " + data[1]} </Typography>;
-                })}
+                {Object.entries(productData[0]["ProcurementInformation"]).map(
+                  (data: any, index: any) => {
+                    return (
+                      <Typography key={index}>
+                        {" "}
+                        {data[0] + " : " + data[1]}{" "}
+                      </Typography>
+                    );
+                  }
+                )}
               </div>
             </AccordionDetails>
           </Accordion>
@@ -130,14 +148,20 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(
-                  productInformation[0]["ProductVendorInformation"]
-                ).map((data: any) => {
-                  return <Typography> {data[0] + " : " + data[1]} </Typography>;
-                })}
+                {Object.entries(productData[0]["ProductVendorInformation"]).map(
+                  (data: any, index: any) => {
+                    return (
+                      <Typography key={index}>
+                        {" "}
+                        {data[0] + " : " + data[1]}{" "}
+                      </Typography>
+                    );
+                  }
+                )}
               </div>
             </AccordionDetails>
           </Accordion>
+
           <Accordion>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -150,11 +174,16 @@ const ProductInformation = () => {
             </AccordionSummary>
             <AccordionDetails>
               <div className={classes.productDetails}>
-                {Object.entries(
-                  productInformation[0]["ProductAffordability"]
-                ).map((data: any) => {
-                  return <Typography> {data[0] + " : " + data[1]} </Typography>;
-                })}
+                {Object.entries(productData[0]["ProductAffordability"]).map(
+                  (data: any, index: any) => {
+                    return (
+                      <Typography key={index}>
+                        {" "}
+                        {data[0] + " : " + data[1]}{" "}
+                      </Typography>
+                    );
+                  }
+                )}
               </div>
             </AccordionDetails>
           </Accordion>

@@ -95,7 +95,7 @@ const CountryHealthIndicators = ({ data, country, code }: Props) => {
 
   return (
     <div>
-      <Grid container spacing={3}>
+      <Grid container>
         <Grid item xs={12} sm={4}>
           <Accordion>
             <AccordionSummary
@@ -168,15 +168,14 @@ const CountryHealthIndicators = ({ data, country, code }: Props) => {
             </AccordionDetails>
           </Accordion>
         </Grid>
-        <Grid xs={12} sm={8}>
+        <Grid item xs={12} sm={8}>
           <Grid
             container
-            spacing={3}
             direction="column"
             alignItems="center"
-            justify="center"
+            justifyContent="center"
           >
-            <Grid xs={12} sm={12}>
+            <Grid item xs={12} sm={12}>
               <FormControl className={classes.formControl}>
                 <InputLabel id="demo-simple-select-label">Year</InputLabel>
                 <Select
