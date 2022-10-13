@@ -10,8 +10,8 @@
        "Is it Part of the Public EML? ": "Y"
      },
      "ProcurementInformation": {
-       "Procuring Sectors (Public, Private, Public&Private)": "Public & Private",
-       "Procurement Modality (Decentralized/Centralized)": "Decentralized",
+       "Procuring Sectors": "Public & Private",
+       "Procurement Modality": "Decentralized",
        "Name of Public Procurement Agent in country": "KEMSA",
        "Est. % of Product by Public Procurement Agency": "70",
        "How is Procurement Financed ": "Dev Partner",
