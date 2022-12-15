@@ -1,6 +1,6 @@
 # AFCFTA Dashboard
 
-This directory contains the custom ACFTA Dashboard.
+This directory contains the ACFTA Dashboard.
 
 
 # Prerequisites
